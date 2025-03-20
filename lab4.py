@@ -65,7 +65,7 @@ import numpy as np
 
 ## Zad 12
 # data = np.array([-3, 4, -1, 6, -8, 2])
-# data2 = np.where(data > 0, data, -99)
+# data2 = np.where(data < 0, -99, data)
 # print(data2)
 
 ## Zad 13
@@ -78,7 +78,7 @@ import numpy as np
 # matrix = np.array([[5, 12, 8], [3, 7, 9], [15, 4, 2]])
 # warunki = [matrix < 5, (matrix >= 5) & (matrix <= 10), matrix > 10]
 # opcje = [0, 50, 100]
-# tab = np.select(warunki,opcje, matrix)
+# tab = np.select(warunki,opcje)
 # print(tab)
 
 ## Zad 15
